@@ -32,7 +32,7 @@ Supposons qu’il y ait une balise `<div>` quelque part dans votre fichier HTML�
 
 Nous parlons de nœud DOM « racine » car tout ce qu’il contient sera géré par React DOM.
 
-Les applications dévéloppées uniquement avec React ont généralement un seul nœud DOM racine. Si vous intégrez React dans une application existante, vous pouvez avoir autant de nœuds DOM racines isolés que vous le souhaitez.
+Les applications développées uniquement avec React ont généralement un seul nœud DOM racine. Si vous intégrez React dans une application existante, vous pouvez avoir autant de nœuds DOM racines isolés que vous le souhaitez.
 
 Pour faire le rendu d’un élément React dans un nœud DOM racine, passez les deux à la méthode [`ReactDOM.render()`](/docs/react-dom.html#render) :
 
